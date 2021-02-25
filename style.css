@@ -1,0 +1,282 @@
+.laptop {
+  position: relative;
+  text-align: center;
+  color: black;
+  background-color:rgb(207, 235, 241);
+}
+
+.laptop1 {
+  max-height: 50rem;
+}
+
+/* form{
+    width: 50%;
+    text-align: center;
+    margin-left: 300px;
+    background-color: rgb(207, 235, 241);
+    
+} */
+
+/* h1{
+     text-align: center;
+} */
+
+
+#hero{
+   
+   margin-bottom: 5em;
+  margin-top: 5em;
+  width: 25em;
+  margin-left: 10em;
+  }
+
+#syd {
+  font-size: 1.5em;
+  
+}
+
+#aboutMe {
+   font-size: 2.5em;
+  font-weight: bold;
+  margin-top: 2em;
+
+}
+
+#iEnjoy {
+  font-size: 1.2em;
+}
+#resume {
+  margin-bottom: 7em;
+  border-radius: 20px;
+ 
+}
+ 
+.project {
+  font-size: 4em;
+  font-weight: bold;
+  color:black;
+   text-align: center;
+   background-color: rgb(184, 184, 199);
+  padding-bottom: 1px;
+  
+}
+.card {
+   padding: 0.2rem;  
+   background-color: rgb(184, 184, 199);
+}
+
+
+.card-title{
+  font-weight: bold;
+}
+a {
+   font-weight: bold;
+}
+
+#skillsTitle {
+  margin-bottom: 2em;
+  margin-top: 10em;
+  justify-content: center;
+  /* background-color:rgb(207, 235, 241); */
+}
+
+#skills {
+  justify-content: center;
+  margin-bottom: 10em;
+  /* background-color:rgb(207, 235, 241); */
+}
+
+ .container1{
+    /* background-color:rgb(179,159,168); */
+    margin-left: 12em;
+    margin-right: 12em;
+    border-radius: 75px;
+   
+  }
+  
+
+#skills li {
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 10px;
+  color: black;
+  background: rgb(184, 184, 199);
+  list-style: none;
+  cursor: default;
+  font-size: 1.2em;
+  font-weight: bolder;
+  border-radius: 4px;
+}
+
+#links {
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+#links a {
+  margin: 2em;
+}
+
+#contact {
+  border-radius: 75px;
+  padding-bottom: 1em;
+  margin-top: 4em;
+  /* background-color:rgb(207, 235, 241); */
+}
+
+.fab {
+  color: white;
+}
+
+body {
+  background-color: white;
+  font-family: "Lato", sans-serif;
+}
+
+#icons {
+  justify-content: center;
+}
+#icons li {
+  display: inline-block;
+  margin: 3em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.link {
+  color: rgb(43, 41, 41);
+}
+
+#topPage {
+  justify-content: center;
+  color: rgb(184, 184, 199);
+  margin-top: 15em;
+}
+
+#icons {
+  justify-content: center;
+}
+#icons li {
+  display: inline-block;
+  margin: 3em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+#topPage {
+  justify-content: center;
+  color: rgb(184, 184, 199);
+  margin-top: 15em;
+}
+
+.card-img-top:hover {
+  opacity: 0.4;
+}
+
+.link:hover {
+  opacity: 0.2;
+}
+.boxColor {
+  background-color: rgb(184, 184, 199);
+}
+
+#skill {
+  margin-top: 1rem;
+  
+ }
+
+ #skillHead {
+   font-size: 1em;
+   font-weight: bold;
+   color: black;
+ }
+
+ .skill{
+   font-size: 2.5em;
+   text-align: center;
+   color: black;
+   font-weight: bold;
+    padding-bottom: 1px;
+  margin-top: 3rem;
+ }
+.surfer {
+  border-radius: 20px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+   font-size: 3em;
+   color: black;
+   font-weight: bold;
+  position: absolute;
+  bottom: 16px;
+  left: 20px;
+} */
+
+ .top-center {
+  font-size: 3em;
+   color: black;
+   font-weight: bold;
+  position: absolute;
+   top: 8px;
+  left: 300px;
+}
+
+.top-right {
+   font-size: 3em;
+   color: black;
+   font-weight: bold;
+  position: absolute;
+  top: 8px;
+  right: 20px;
+}
+
+.top-left {
+   font-size: 3em;
+   color: black;
+   font-weight: bold;
+  position: absolute;
+  top: 8px;
+  left: 20px;
+}
+
+.bottom-right {
+   font-size: 3em;
+   color: black;
+   font-weight: bold;
+  position: absolute;
+  bottom: 16px;
+  right: 20px;
+}
+
+.centered {
+   font-size: 3em;
+   color: black;
+   font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+ footer {
+  margin-top: 0;
+  color: white;
+} 
+  
+
+
+
+
+
+
+
+
+
