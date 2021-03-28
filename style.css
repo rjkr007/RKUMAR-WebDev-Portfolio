@@ -2,12 +2,46 @@
   position: relative;
   text-align: center;
   color: black;
-  background-color:rgb(207, 235, 241);
+  background-color: rgb(207, 235, 241);
 }
 
 .laptop1 {
   max-height: 50rem;
 }
+
+ h5 {
+  animation-duration: 10s;
+  animation-name: bounceIn;
+  animation-iteration-count: 10;
+  animation-direction: alternate;
+}
+
+
+@keyframes bounceIn {
+  0% {
+    /* margin-left: 100%;
+    width: 300%;  */
+ transform: scale(0.1);
+      opacity: 0;
+  }
+
+  40% {
+     /* margin-left: 0%;
+    width: 25%;  */
+    transform: scale(0.8);
+     opacity: 0.6;
+  }
+  70% {
+     /* margin-left: 0%;
+    width: 25%;  */
+    transform: scale(1.2);
+     opacity: 1;
+  }
+ 100% {
+    transform: scale(1);
+     opacity: 0.8
+  }
+}  
 
 /* form{
     width: 50%;
@@ -17,60 +51,72 @@
     
 } */
 
-/* h1{
+ /* h1{
      text-align: center;
-} */
+}  */
 
-
-#hero{
-   
-   margin-bottom: 5em;
+#hero {
+  margin-bottom: 5em;
   margin-top: 5em;
   width: 25em;
   margin-left: 10em;
-  }
+}
 
 #syd {
   font-size: 1.5em;
-  
+  animation-duration: 10s;
+  animation-name: bounceIn;
+  animation-iteration-count: 10;
+  animation-delay: 7s;
+  animation-direction: alternate;
+}
+
+#iEnjoy:hover {
+  animation-play-state: paused;
 }
 
 #aboutMe {
-   font-size: 2.5em;
+  font-size: 2.5em;
   font-weight: bold;
   margin-top: 2em;
-
+  animation-duration: 10s;
+  animation-name: bounceIn;
+  animation-iteration-count: 10;
+  animation-delay: 7s;
+  animation-direction: alternate;
 }
 
 #iEnjoy {
   font-size: 1.2em;
+  animation-duration: 10s;
+  animation-name: bounceIn;
+  animation-iteration-count: 10;
+  animation-delay: 7s;
+  animation-direction: alternate;
 }
 #resume {
   margin-bottom: 7em;
   border-radius: 20px;
- 
 }
- 
+
 .project {
   font-size: 4em;
   font-weight: bold;
-  color:black;
-   text-align: center;
-   background-color: rgb(184, 184, 199);
+  color: black;
+  text-align: center;
+  background-color: rgb(184, 184, 199);
   padding-bottom: 1px;
-  
 }
 .card {
-   padding: 0.2rem;  
-   background-color: rgb(184, 184, 199);
+  padding: 0.2rem;
+  background-color: rgb(184, 184, 199);
 }
 
-
-.card-title{
+.card-title {
   font-weight: bold;
 }
 a {
-   font-weight: bold;
+  font-weight: bold;
 }
 
 #skillsTitle {
@@ -98,15 +144,13 @@ a {
   margin-bottom: 1em;
   /* background-color:rgb(207, 235, 241); */
 }
- .container1{
-    /* background-color:rgb(179,159,168); */
-    /* display: flex; */
-    margin-left: 12em;
-    margin-right: 12em;
-    border-radius: 75px;
-   
-  }
-  
+.container1 {
+  /* background-color:rgb(179,159,168); */
+  /* display: flex; */
+  margin-left: 12em;
+  margin-right: 12em;
+  border-radius: 75px;
+}
 
 .skills li {
   display: inline-block;
@@ -189,7 +233,6 @@ body {
   margin-bottom: 0;
 }
 
-
 #topPage {
   justify-content: center;
   color: rgb(184, 184, 199);
@@ -209,23 +252,22 @@ body {
 
 #skill {
   margin-top: 1rem;
-  
- }
+}
 
- #skillHead {
-   font-size: 1em;
-   font-weight: bold;
-   color: black;
- }
+#skillHead {
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+}
 
- .skill{
-   font-size: 2.5em;
-   text-align: center;
-   color: black;
-   font-weight: bold;
-    padding-bottom: 1px;
+.skill {
+  font-size: 2.5em;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 1px;
   margin-top: 3rem;
- }
+}
 .surfer {
   border-radius: 20px;
 }
@@ -237,72 +279,60 @@ body {
 }
 
 .bottom-left {
-   font-size: 3em;
-   color: black;
-   font-weight: bold;
+  font-size: 3em;
+  color: black;
+  font-weight: bold;
   position: absolute;
   bottom: 16px;
   left: 20px;
-} */
-
- .top-center {
+}
+*/ .top-center {
   font-size: 3em;
-   color: black;
-   font-weight: bold;
+  color: black;
+  font-weight: bold;
   position: absolute;
-   top: 8px;
+  top: 8px;
   left: 300px;
 }
 
 .top-right {
-   font-size: 3em;
-   color: black;
-   font-weight: bold;
+  font-size: 3em;
+  color: black;
+  font-weight: bold;
   position: absolute;
   top: 8px;
   right: 20px;
 }
 
 .top-left {
-   font-size: 3em;
-   color: black;
-   font-weight: bold;
+  font-size: 3em;
+  color: black;
+  font-weight: bold;
   position: absolute;
   top: 8px;
   left: 20px;
 }
 
 .bottom-right {
-   font-size: 3em;
-   color: black;
-   font-weight: bold;
+  font-size: 3em;
+  color: black;
+  font-weight: bold;
   position: absolute;
   bottom: 16px;
   right: 20px;
 }
 
 .centered {
-   font-size: 3em;
-   color: black;
-   font-weight: bold;
+  font-size: 3em;
+  color: black;
+  font-weight: bold;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-
- footer {
+footer {
   margin-top: 0;
   color: white;
-} 
-  
-
-
-
-
-
-
-
-
-
+}
